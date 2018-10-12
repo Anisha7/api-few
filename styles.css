@@ -1,12 +1,55 @@
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
 h2, h3 {
     border: 1px solid rgb(147, 147, 147);
     padding: 20px;
 }
 
+h3 {
+    background-color: rgb(34, 34, 34);
+}
+
 .container {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
 }
 
 .box {
     margin: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #5F458C;
+}
+
+li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+label, input {
+    padding: 10px;
+    font-size: 20px;
 }

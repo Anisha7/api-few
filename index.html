@@ -9,7 +9,13 @@
 
   </head>
   <body>
-    <h1> Let's make some music!! </h1>
+    
+      <ul>
+          <li><a class="active" href="#home"><h1 style="border: none;">Let's Make Some Music</h1></a></li>
+          <li style = "float:right"><a href="#contact"><h3 onclick="addNew()"> Add Another Instrument</h3></a></li>
+          <li style="float:right"><a href="#about"><h3 onclick="deleteOne()"> Delete One Instrument</h3></a></li>
+      </ul>
+      
       <div id = "c" class = "container">
         <div class = "box">
           <form>
@@ -26,8 +32,7 @@
             </form>
             <h2 id = "note2" onclick="playSound('2')" > Play Sound</h2>
         </div>
+
       </div>
-      <h3 onclick="addNew()"> Add Another Instrument</h3>
-      <h3 onclick="deleteOne()"> Delete One Instrument</h3>
   </body>
   </html>

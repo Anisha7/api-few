@@ -42,8 +42,6 @@ class Sound {
     sound.stop();
   }
 
-  
-  console.log(container);
   function addNew() {
     let forms = document.getElementsByClassName('box');
     let len = forms.length;
