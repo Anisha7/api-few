@@ -1,0 +1,12 @@
+h2, h3 {
+    border: 1px solid rgb(147, 147, 147);
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+}
+
+.box {
+    margin: 20px;
+}

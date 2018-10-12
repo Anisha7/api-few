@@ -3,9 +3,31 @@
   <head>
     <meta charset="utf-8">
     <title>API</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="scripts.js"></script>
 
   </head>
   <body>
+    <h1> Let's make some music!! </h1>
+      <div id = "c" class = "container">
+        <div class = "box">
+          <form>
+              <label for="freq">Frequency: </label>
+              <input type="text" id="freq" name="freq" placeholder="Enter value 100 or more"/>
+          </form>
+          <h2 id = "note" onclick="playSound('')"> Play Sound</h2>
+        </div>
 
+        <div class = "box">
+            <form>
+                <label for="freq2">Frequency: </label>
+                <input type="text" id="freq2" name="freq2" placeholder="Enter value 100 or more"/>
+            </form>
+            <h2 id = "note2" onclick="playSound('2')" > Play Sound</h2>
+        </div>
+      </div>
+      <h3 onclick="addNew()"> Add Another Instrument</h3>
+      <h3 onclick="deleteOne()"> Delete One Instrument</h3>
   </body>
   </html>
