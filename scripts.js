@@ -44,7 +44,7 @@ class Sound {
 
   function addNew() {
     let forms = document.getElementsByClassName('box');
-    let len = forms.length;
+    let len = forms.length + 1;
     var container = document.getElementById('c');
     let id = 'freq' + len.toString();
     let s = `<div class = "box">
