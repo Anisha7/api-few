@@ -32,5 +32,4 @@ To run it locally, clone or download the repo and open index.html in your browse
 
 ## Links
 - Documentation: https://developer.mozilla.org/en-US/docs/Web/API/Web_Audio_API 
-- Medium Post: 
-Stretch goal: Write a Medium post about your experience with your chosen API. This article should be atleast 500 words. If you do the stretch goal post a link to your article in your Githup Repo.
+- Medium Post: Coming soon
